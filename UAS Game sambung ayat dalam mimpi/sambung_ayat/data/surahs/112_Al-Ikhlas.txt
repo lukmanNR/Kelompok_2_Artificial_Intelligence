@@ -1,0 +1,7 @@
+# Surah 112 | Al-Ikhlas | الإخلاص
+# total_ayat=4
+
+1|قُلْ هُوَ اللَّهُ أَحَدٌ|Katakanlah (Muhammad), "Dialah Allah, Yang Maha Esa."
+2|اللَّهُ الصَّمَدُ|Allah tempat meminta segala sesuatu.
+3|لَمْ يَلِدْ وَلَمْ يُولَدْ|Dia tidak beranak dan tidak diperanakkan.
+4|وَلَمْ يَكُنْ لَهُ كُفُوًا أَحَدٌ|Dan tidak ada sesuatu yang setara dengan Dia.

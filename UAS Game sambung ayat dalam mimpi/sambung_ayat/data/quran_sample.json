@@ -1,0 +1,792 @@
+[
+  {
+    "surah_id": 93,
+    "surah_name": "Ad-Duha",
+    "surah_name_ar": "الضحى",
+    "ayat": [
+      {
+        "no": 1,
+        "arab": "وَالضُّحَىٰ",
+        "id": "Demi waktu duha (ketika matahari naik sepenggalah),"
+      },
+      {
+        "no": 2,
+        "arab": "وَاللَّيْلِ إِذَا سَجَىٰ",
+        "id": "dan demi malam apabila telah sunyi,"
+      },
+      {
+        "no": 3,
+        "arab": "مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ",
+        "id": "Tuhanmu tidak meninggalkan engkau (Muhammad) dan tidak (pula) membencimu,"
+      },
+      {
+        "no": 4,
+        "arab": "وَلَلْآخِرَةُ خَيْرٌ لَكَ مِنَ الْأُولَىٰ",
+        "id": "dan sungguh, yang kemudian itu lebih baik bagimu dari yang permulaan."
+      },
+      {
+        "no": 5,
+        "arab": "وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَىٰ",
+        "id": "Dan sungguh, kelak Tuhanmu pasti memberikan karunia-Nya kepadamu, lalu (hati) engkau menjadi puas."
+      },
+      {
+        "no": 6,
+        "arab": "أَلَمْ يَجِدْكَ يَتِيمًا فَآوَىٰ",
+        "id": "Bukankah Dia mendapatimu sebagai seorang yatim, lalu Dia melindungi(mu),"
+      },
+      {
+        "no": 7,
+        "arab": "وَوَجَدَكَ ضَالًّا فَهَدَىٰ",
+        "id": "dan Dia mendapatimu sebagai seorang yang bingung, lalu Dia memberikan petunjuk,"
+      },
+      {
+        "no": 8,
+        "arab": "وَوَجَدَكَ عَائِلًا فَأَغْنَىٰ",
+        "id": "dan Dia mendapatimu sebagai seorang yang kekurangan, lalu Dia memberikan kecukupan."
+      },
+      {
+        "no": 9,
+        "arab": "فَأَمَّا الْيَتِيمَ فَلَا تَقْهَرْ",
+        "id": "Maka terhadap anak yatim janganlah engkau berlaku sewenang-wenang."
+      },
+      {
+        "no": 10,
+        "arab": "وَأَمَّا السَّائِلَ فَلَا تَنْهَرْ",
+        "id": "Dan terhadap orang yang meminta-minta janganlah engkau menghardik(nya)."
+      },
+      {
+        "no": 11,
+        "arab": "وَأَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ",
+        "id": "Dan terhadap nikmat Tuhanmu, hendaklah engkau nyatakan (dengan bersyukur)."
+      }
+    ]
+  },
+  {
+    "surah_id": 94,
+    "surah_name": "Ash-Sharh",
+    "surah_name_ar": "الشرح",
+    "ayat": [
+      {
+        "no": 1,
+        "arab": "أَلَمْ نَشْرَحْ لَكَ صَدْرَكَ",
+        "id": "Bukankah Kami telah melapangkan untukmu dadamu?"
+      },
+      {
+        "no": 2,
+        "arab": "وَوَضَعْنَا عَنْكَ وِزْرَكَ",
+        "id": "dan Kami telah menghilangkan darimu bebanmu,"
+      },
+      {
+        "no": 3,
+        "arab": "الَّذِي أَنْقَضَ ظَهْرَكَ",
+        "id": "yang memberatkan punggungmu,"
+      },
+      {
+        "no": 4,
+        "arab": "وَرَفَعْنَا لَكَ ذِكْرَكَ",
+        "id": "dan Kami tinggikan sebutan (nama)mu bagimu."
+      },
+      {
+        "no": 5,
+        "arab": "فَإِنَّ مَعَ الْعُسْرِ يُسْرًا",
+        "id": "Maka sesungguhnya bersama kesulitan ada kemudahan,"
+      },
+      {
+        "no": 6,
+        "arab": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
+        "id": "sesungguhnya bersama kesulitan ada kemudahan."
+      },
+      {
+        "no": 7,
+        "arab": "فَإِذَا فَرَغْتَ فَانْصَبْ",
+        "id": "Maka apabila engkau telah selesai (dari sesuatu urusan), tetaplah bekerja keras (untuk urusan yang lain),"
+      },
+      {
+        "no": 8,
+        "arab": "وَإِلَىٰ رَبِّكَ فَارْغَبْ",
+        "id": "dan hanya kepada Tuhanmulah engkau berharap."
+      }
+    ]
+  },
+  {
+    "surah_id": 95,
+    "surah_name": "At-Tin",
+    "surah_name_ar": "التين",
+    "ayat": [
+      {
+        "no": 1,
+        "arab": "وَالتِّينِ وَالزَّيْتُونِ",
+        "id": "Demi (buah) tin dan (buah) zaitun,"
+      },
+      {
+        "no": 2,
+        "arab": "وَطُورِ سِينِينَ",
+        "id": "demi gunung Sinai,"
+      },
+      {
+        "no": 3,
+        "arab": "وَهَٰذَا الْبَلَدِ الْأَمِينِ",
+        "id": "dan demi negeri (Mekah) yang aman ini."
+      },
+      {
+        "no": 4,
+        "arab": "لَقَدْ خَلَقْنَا الْإِنْسَانَ فِي أَحْسَنِ تَقْوِيمٍ",
+        "id": "Sungguh, Kami telah menciptakan manusia dalam bentuk yang sebaik-baiknya,"
+      },
+      {
+        "no": 5,
+        "arab": "ثُمَّ رَدَدْنَاهُ أَسْفَلَ سَافِلِينَ",
+        "id": "kemudian Kami kembalikan dia ke tempat yang serendah-rendahnya,"
+      },
+      {
+        "no": 6,
+        "arab": "إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ فَلَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍ",
+        "id": "kecuali orang-orang yang beriman dan mengerjakan kebajikan; maka mereka akan mendapat pahala yang tidak ada putus-putusnya."
+      },
+      {
+        "no": 7,
+        "arab": "فَمَا يُكَذِّبُكَ بَعْدُ بِالدِّينِ",
+        "id": "Maka apa yang menyebabkan (mereka) mendustakanmu (tentang) hari pembalasan setelah (adanya keterangan) itu?"
+      },
+      {
+        "no": 8,
+        "arab": "أَلَيْسَ اللَّهُ بِأَحْكَمِ الْحَاكِمِينَ",
+        "id": "Bukankah Allah hakim yang paling adil?"
+      }
+    ]
+  },
+  {
+    "surah_id": 97,
+    "surah_name": "Al-Qadr",
+    "surah_name_ar": "القدر",
+    "ayat": [
+      {
+        "no": 1,
+        "arab": "إِنَّا أَنْزَلْنَاهُ فِي لَيْلَةِ الْقَدْرِ",
+        "id": "Sesungguhnya Kami telah menurunkannya (Al-Qur'an) pada malam kemuliaan."
+      },
+      {
+        "no": 2,
+        "arab": "وَمَا أَدْرَاكَ مَا لَيْلَةُ الْقَدْرِ",
+        "id": "Dan tahukah kamu apakah malam kemuliaan itu?"
+      },
+      {
+        "no": 3,
+        "arab": "لَيْلَةُ الْقَدْرِ خَيْرٌ مِنْ أَلْفِ شَهْرٍ",
+        "id": "Malam kemuliaan itu lebih baik dari seribu bulan."
+      },
+      {
+        "no": 4,
+        "arab": "تَنَزَّلُ الْمَلَائِكَةُ وَالرُّوحُ فِيهَا بِإِذْنِ رَبِّهِمْ مِنْ كُلِّ أَمْرٍ",
+        "id": "Pada malam itu turun para malaikat dan Ruh (Jibril) dengan izin Tuhannya untuk mengatur segala urusan."
+      },
+      {
+        "no": 5,
+        "arab": "سَلَامٌ هِيَ حَتَّىٰ مَطْلَعِ الْفَجْرِ",
+        "id": "Sejahteralah (malam itu) sampai terbit fajar."
+      }
+    ]
+  },
+  {
+    "surah_id": 99,
+    "surah_name": "Az-Zalzalah",
+    "surah_name_ar": "الزلزلة",
+    "ayat": [
+      {
+        "no": 1,
+        "arab": "إِذَا زُلْزِلَتِ الْأَرْضُ زِلْزَالَهَا",
+        "id": "Apabila bumi diguncarkan dengan guncangan yang dahsyat,"
+      },
+      {
+        "no": 2,
+        "arab": "وَأَخْرَجَتِ الْأَرْضُ أَثْقَالَهَا",
+        "id": "dan bumi telah mengeluarkan beban-beban berat (yang dikandung)nya,"
+      },
+      {
+        "no": 3,
+        "arab": "وَقَالَ الْإِنْسَانُ مَا لَهَا",
+        "id": "dan manusia bertanya, \"Apa yang terjadi pada bumi ini?\""
+      },
+      {
+        "no": 4,
+        "arab": "يَوْمَئِذٍ تُحَدِّثُ أَخْبَارَهَا",
+        "id": "pada hari itu bumi menyampaikan beritanya,"
+      },
+      {
+        "no": 5,
+        "arab": "بِأَنَّ رَبَّكَ أَوْحَىٰ لَهَا",
+        "id": "karena sesungguhnya Tuhanmu telah memerintahkan (yang demikian itu) kepadanya."
+      },
+      {
+        "no": 6,
+        "arab": "يَوْمَئِذٍ يَصْدُرُ النَّاسُ أَشْتَاتًا لِيُرَوْا أَعْمَالَهُمْ",
+        "id": "Pada hari itu manusia keluar dari kuburnya dalam keadaan berkelompok-kelompok, untuk diperlihatkan kepada mereka (balasan) pekerjaan mereka."
+      },
+      {
+        "no": 7,
+        "arab": "فَمَنْ يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَرَهُ",
+        "id": "Maka barangsiapa mengerjakan kebaikan seberat zarrah, niscaya dia akan melihat (balasan)nya,"
+      },
+      {
+        "no": 8,
+        "arab": "وَمَنْ يَعْمَلْ مِثْقَالَ ذَرَّةٍ شَرًّا يَرَهُ",
+        "id": "dan barangsiapa mengerjakan kejahatan seberat zarrah, niscaya dia akan melihat (balasan)nya."
+      }
+    ]
+  },
+  {
+    "surah_id": 100,
+    "surah_name": "Al-Adiyat",
+    "surah_name_ar": "العاديات",
+    "ayat": [
+      {
+        "no": 1,
+        "arab": "وَالْعَادِيَاتِ ضَبْحًا",
+        "id": "Demi kuda perang yang berlari kencang terengah-engah,"
+      },
+      {
+        "no": 2,
+        "arab": "فَالْمُورِيَاتِ قَدْحًا",
+        "id": "dan kuda yang memercikkan bunga api (dengan pukulan kuku kakinya),"
+      },
+      {
+        "no": 3,
+        "arab": "فَالْمُغِيرَاتِ صُبْحًا",
+        "id": "dan kuda yang menyerang (dengan tiba-tiba) pada waktu pagi,"
+      },
+      {
+        "no": 4,
+        "arab": "فَأَثَرْنَ بِهِ نَقْعًا",
+        "id": "sehingga menerbangkan debu,"
+      },
+      {
+        "no": 5,
+        "arab": "فَوَسَطْنَ بِهِ جَمْعًا",
+        "id": "lalu menyerbu ke tengah-tengah kumpulan musuh,"
+      },
+      {
+        "no": 6,
+        "arab": "إِنَّ الْإِنْسَانَ لِرَبِّهِ لَكَنُودٌ",
+        "id": "sungguh, manusia itu sangat ingkar, tidak berterima kasih kepada Tuhannya,"
+      },
+      {
+        "no": 7,
+        "arab": "وَإِنَّهُ عَلَىٰ ذَٰلِكَ لَشَهِيدٌ",
+        "id": "dan sesungguhnya dia (manusia) itu menyaksikan (keingkarannya),"
+      },
+      {
+        "no": 8,
+        "arab": "وَإِنَّهُ لِحُبِّ الْخَيْرِ لَشَدِيدٌ",
+        "id": "dan sesungguhnya dia sangat cintakan harta."
+      },
+      {
+        "no": 9,
+        "arab": "أَفَلَا يَعْلَمُ إِذَا بُعْثِرَ مَا فِي الْقُبُورِ",
+        "id": "Maka tidakkah dia mengetahui apabila apa yang di dalam kubur dikeluarkan,"
+      },
+      {
+        "no": 10,
+        "arab": "وَحُصِّلَ مَا فِي الصُّدُورِ",
+        "id": "dan apa yang tersimpan di dalam dada dilahirkan?"
+      },
+      {
+        "no": 11,
+        "arab": "إِنَّ رَبَّهُمْ بِهِمْ يَوْمَئِذٍ لَخَبِيرٌ",
+        "id": "Sesungguhnya Tuhan mereka pada hari itu Mahateliti terhadap keadaan mereka."
+      }
+    ]
+  },
+  {
+    "surah_id": 101,
+    "surah_name": "Al-Qari'ah",
+    "surah_name_ar": "القارعة",
+    "ayat": [
+      {
+        "no": 1,
+        "arab": "الْقَارِعَةُ",
+        "id": "Hari Kiamat,"
+      },
+      {
+        "no": 2,
+        "arab": "مَا الْقَارِعَةُ",
+        "id": "apakah hari Kiamat itu?"
+      },
+      {
+        "no": 3,
+        "arab": "وَمَا أَدْرَاكَ مَا الْقَارِعَةُ",
+        "id": "Dan tahukah kamu apakah hari Kiamat itu?"
+      },
+      {
+        "no": 4,
+        "arab": "يَوْمَ يَكُونُ النَّاسُ كَالْفَرَاشِ الْمَبْثُوثِ",
+        "id": "Pada hari itu manusia seperti laron yang beterbangan,"
+      },
+      {
+        "no": 5,
+        "arab": "وَتَكُونُ الْجِبَالُ كَالْعِهْنِ الْمَنْفُوشِ",
+        "id": "dan gunung-gunung seperti bulu yang dihambur-hamburkan."
+      },
+      {
+        "no": 6,
+        "arab": "فَأَمَّا مَنْ ثَقُلَتْ مَوَازِينُهُ",
+        "id": "Maka adapun orang yang berat timbangan (kebaikan)nya,"
+      },
+      {
+        "no": 7,
+        "arab": "فَهُوَ فِي عِيشَةٍ رَاضِيَةٍ",
+        "id": "maka dia berada dalam kehidupan yang memuaskan (senang)."
+      },
+      {
+        "no": 8,
+        "arab": "وَأَمَّا مَنْ خَفَّتْ مَوَازِينُهُ",
+        "id": "Dan adapun orang yang ringan timbangan (kebaikan)nya,"
+      },
+      {
+        "no": 9,
+        "arab": "فَأُمُّهُ هَاوِيَةٌ",
+        "id": "maka tempat kembalinya adalah neraka Hawiyah."
+      },
+      {
+        "no": 10,
+        "arab": "وَمَا أَدْرَاكَ مَا هِيَهْ",
+        "id": "Dan tahukah kamu apakah neraka Hawiyah itu?"
+      },
+      {
+        "no": 11,
+        "arab": "نَارٌ حَامِيَةٌ",
+        "id": "(Yaitu) api yang sangat panas."
+      }
+    ]
+  },
+  {
+    "surah_id": 102,
+    "surah_name": "At-Takathur",
+    "surah_name_ar": "التكاثر",
+    "ayat": [
+      {
+        "no": 1,
+        "arab": "أَلْهَاكُمُ التَّكَاثُرُ",
+        "id": "Bermegah-megahan telah melalaikan kamu,"
+      },
+      {
+        "no": 2,
+        "arab": "حَتَّىٰ زُرْتُمُ الْمَقَابِرَ",
+        "id": "sampai kamu masuk ke dalam kubur."
+      },
+      {
+        "no": 3,
+        "arab": "كَلَّا سَوْفَ تَعْلَمُونَ",
+        "id": "Jangan begitu! Kelak kamu akan mengetahui (akibat perbuatanmu itu),"
+      },
+      {
+        "no": 4,
+        "arab": "ثُمَّ كَلَّا سَوْفَ تَعْلَمُونَ",
+        "id": "kemudian jangan begitu! Kelak kamu akan mengetahui."
+      },
+      {
+        "no": 5,
+        "arab": "كَلَّا لَوْ تَعْلَمُونَ عِلْمَ الْيَقِينِ",
+        "id": "Jangan begitu! Sekiranya kamu mengetahui dengan pasti,"
+      },
+      {
+        "no": 6,
+        "arab": "لَتَرَوُنَّ الْجَحِيمَ",
+        "id": "niscaya kamu benar-benar akan melihat neraka Jahim,"
+      },
+      {
+        "no": 7,
+        "arab": "ثُمَّ لَتَرَوُنَّهَا عَيْنَ الْيَقِينِ",
+        "id": "kemudian kamu benar-benar akan melihatnya dengan mata kepala sendiri,"
+      },
+      {
+        "no": 8,
+        "arab": "ثُمَّ لَتُسْأَلُنَّ يَوْمَئِذٍ عَنِ النَّعِيمِ",
+        "id": "kemudian kamu benar-benar akan ditanya pada hari itu tentang kenikmatan (yang megah di dunia itu)."
+      }
+    ]
+  },
+  {
+    "surah_id": 103,
+    "surah_name": "Al-Asr",
+    "surah_name_ar": "العصر",
+    "ayat": [
+      {
+        "no": 1,
+        "arab": "وَالْعَصْرِ",
+        "id": "Demi masa."
+      },
+      {
+        "no": 2,
+        "arab": "إِنَّ الْإِنْسَانَ لَفِي خُسْرٍ",
+        "id": "Sungguh, manusia berada dalam kerugian,"
+      },
+      {
+        "no": 3,
+        "arab": "إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ وَتَوَاصَوْا بِالْحَقِّ وَتَوَاصَوْا بِالصَّبْرِ",
+        "id": "kecuali orang-orang yang beriman dan mengerjakan kebajikan serta saling menasihati untuk kebenaran dan saling menasihati untuk kesabaran."
+      }
+    ]
+  },
+  {
+    "surah_id": 104,
+    "surah_name": "Al-Humazah",
+    "surah_name_ar": "الهمزة",
+    "ayat": [
+      {
+        "no": 1,
+        "arab": "وَيْلٌ لِكُلِّ هُمَزَةٍ لُمَزَةٍ",
+        "id": "Celakalah bagi setiap pengumpat dan pencela,"
+      },
+      {
+        "no": 2,
+        "arab": "الَّذِي جَمَعَ مَالًا وَعَدَّدَهُ",
+        "id": "yang mengumpulkan harta dan menghitung-hitungnya,"
+      },
+      {
+        "no": 3,
+        "arab": "يَحْسَبُ أَنَّ مَالَهُ أَخْلَدَهُ",
+        "id": "dia mengira bahwa hartanya itu dapat mengekalkannya."
+      },
+      {
+        "no": 4,
+        "arab": "كَلَّا ۖ لَيُنْبَذَنَّ فِي الْحُطَمَةِ",
+        "id": "Tidak mungkin! Pasti dia akan dilemparkan ke dalam (neraka) Hutamah."
+      },
+      {
+        "no": 5,
+        "arab": "وَمَا أَدْرَاكَ مَا الْحُطَمَةُ",
+        "id": "Dan tahukah kamu apakah (neraka) Hutamah itu?"
+      },
+      {
+        "no": 6,
+        "arab": "نَارُ اللَّهِ الْمُوقَدَةُ",
+        "id": "(Yaitu) api (azab) Allah yang dinyalakan,"
+      },
+      {
+        "no": 7,
+        "arab": "الَّتِي تَطَّلِعُ عَلَى الْأَفْئِدَةِ",
+        "id": "yang (membakar) sampai ke hati."
+      },
+      {
+        "no": 8,
+        "arab": "إِنَّهَا عَلَيْهِمْ مُؤْصَدَةٌ",
+        "id": "Sungguh, api itu ditutup rapat atas mereka,"
+      },
+      {
+        "no": 9,
+        "arab": "فِي عَمَدٍ مُمَدَّدَةٍ",
+        "id": "(sedang mereka itu) diikat pada tiang-tiang yang panjang."
+      }
+    ]
+  },
+  {
+    "surah_id": 105,
+    "surah_name": "Al-Fil",
+    "surah_name_ar": "الفيل",
+    "ayat": [
+      {
+        "no": 1,
+        "arab": "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَابِ الْفِيلِ",
+        "id": "Tidakkah engkau (Muhammad) perhatikan bagaimana Tuhanmu telah bertindak terhadap pasukan bergajah?"
+      },
+      {
+        "no": 2,
+        "arab": "أَلَمْ يَجْعَلْ كَيْدَهُمْ فِي تَضْلِيلٍ",
+        "id": "Bukankah Dia telah menjadikan tipu daya mereka (untuk menghancurkan Ka'bah) itu sia-sia?"
+      },
+      {
+        "no": 3,
+        "arab": "وَأَرْسَلَ عَلَيْهِمْ طَيْرًا أَبَابِيلَ",
+        "id": "dan Dia mengirimkan kepada mereka burung yang berbondong-bondong,"
+      },
+      {
+        "no": 4,
+        "arab": "تَرْمِيهِمْ بِحِجَارَةٍ مِنْ سِجِّيلٍ",
+        "id": "yang melempari mereka dengan batu dari tanah liat yang dibakar,"
+      },
+      {
+        "no": 5,
+        "arab": "فَجَعَلَهُمْ كَعَصْفٍ مَأْكُولٍ",
+        "id": "sehingga mereka dijadikan-Nya seperti daun-daun yang dimakan (ulat)."
+      }
+    ]
+  },
+  {
+    "surah_id": 106,
+    "surah_name": "Quraisy",
+    "surah_name_ar": "قريش",
+    "ayat": [
+      {
+        "no": 1,
+        "arab": "لِإِيلَافِ قُرَيْشٍ",
+        "id": "Karena kebiasaan orang-orang Quraisy,"
+      },
+      {
+        "no": 2,
+        "arab": "إِيلَافِهِمْ رِحْلَةَ الشِّتَاءِ وَالصَّيْفِ",
+        "id": "(yaitu) kebiasaan mereka bepergian pada musim dingin dan musim panas."
+      },
+      {
+        "no": 3,
+        "arab": "فَلْيَعْبُدُوا رَبَّ هَٰذَا الْبَيْتِ",
+        "id": "Maka hendaklah mereka menyembah Tuhan (pemilik) rumah ini (Ka'bah),"
+      },
+      {
+        "no": 4,
+        "arab": "الَّذِي أَطْعَمَهُمْ مِنْ جُوعٍ وَآمَنَهُمْ مِنْ خَوْفٍ",
+        "id": "yang telah memberi makanan kepada mereka untuk menghilangkan lapar dan mengamankan mereka dari rasa ketakutan."
+      }
+    ]
+  },
+  {
+    "surah_id": 107,
+    "surah_name": "Al-Ma'un",
+    "surah_name_ar": "الماعون",
+    "ayat": [
+      {
+        "no": 1,
+        "arab": "أَرَأَيْتَ الَّذِي يُكَذِّبُ بِالدِّينِ",
+        "id": "Tahukah kamu (orang) yang mendustakan agama?"
+      },
+      {
+        "no": 2,
+        "arab": "فَذَٰلِكَ الَّذِي يَدُعُّ الْيَتِيمَ",
+        "id": "Itulah orang yang menghardik anak yatim,"
+      },
+      {
+        "no": 3,
+        "arab": "وَلَا يَحُضُّ عَلَىٰ طَعَامِ الْمِسْكِينِ",
+        "id": "dan tidak menganjurkan memberi makan orang miskin."
+      },
+      {
+        "no": 4,
+        "arab": "فَوَيْلٌ لِلْمُصَلِّينَ",
+        "id": "Maka celakalah orang yang salat,"
+      },
+      {
+        "no": 5,
+        "arab": "الَّذِينَ هُمْ عَنْ صَلَاتِهِمْ سَاهُونَ",
+        "id": "(yaitu) orang-orang yang lalai terhadap salatnya,"
+      },
+      {
+        "no": 6,
+        "arab": "الَّذِينَ هُمْ يُرَاءُونَ",
+        "id": "yang berbuat ria,"
+      },
+      {
+        "no": 7,
+        "arab": "وَيَمْنَعُونَ الْمَاعُونَ",
+        "id": "dan enggan (memberikan) bantuan."
+      }
+    ]
+  },
+  {
+    "surah_id": 108,
+    "surah_name": "Al-Kawthar",
+    "surah_name_ar": "الكوثر",
+    "ayat": [
+      {
+        "no": 1,
+        "arab": "إِنَّا أَعْطَيْنَاكَ الْكَوْثَرَ",
+        "id": "Sesungguhnya Kami telah memberimu (Muhammad) nikmat yang banyak."
+      },
+      {
+        "no": 2,
+        "arab": "فَصَلِّ لِرَبِّكَ وَانْحَرْ",
+        "id": "Maka laksanakanlah shalat karena Tuhanmu, dan berkurbanlah (sebagai ibadah dan mendekatkan diri kepada Allah)."
+      },
+      {
+        "no": 3,
+        "arab": "إِنَّ شَانِئَكَ هُوَ الْأَبْتَرُ",
+        "id": "Sungguh, orang-orang yang membencimu dialah yang terputus (dari rahmat Allah)."
+      }
+    ]
+  },
+  {
+    "surah_id": 109,
+    "surah_name": "Al-Kafirun",
+    "surah_name_ar": "الكافرون",
+    "ayat": [
+      {
+        "no": 1,
+        "arab": "قُلْ يَا أَيُّهَا الْكَافِرُونَ",
+        "id": "Katakanlah (Muhammad), \"Wahai orang-orang kafir!"
+      },
+      {
+        "no": 2,
+        "arab": "لَا أَعْبُدُ مَا تَعْبُدُونَ",
+        "id": "aku tidak akan menyembah apa yang kamu sembah,"
+      },
+      {
+        "no": 3,
+        "arab": "وَلَا أَنْتُمْ عَابِدُونَ مَا أَعْبُدُ",
+        "id": "dan kamu bukan penyembah apa yang aku sembah,"
+      },
+      {
+        "no": 4,
+        "arab": "وَلَا أَنَا عَابِدٌ مَا عَبَدْتُمْ",
+        "id": "dan aku tidak pernah menjadi penyembah apa yang kamu sembah,"
+      },
+      {
+        "no": 5,
+        "arab": "وَلَا أَنْتُمْ عَابِدُونَ مَا أَعْبُدُ",
+        "id": "dan kamu tidak pernah (pula) menjadi penyembah apa yang aku sembah."
+      },
+      {
+        "no": 6,
+        "arab": "لَكُمْ دِينُكُمْ وَلِيَ دِينِ",
+        "id": "Untukmu agamamu, dan untukku agamaku.\""
+      }
+    ]
+  },
+  {
+    "surah_id": 110,
+    "surah_name": "An-Nasr",
+    "surah_name_ar": "النصر",
+    "ayat": [
+      {
+        "no": 1,
+        "arab": "إِذَا جَاءَ نَصْرُ اللَّهِ وَالْفَتْحُ",
+        "id": "Apabila telah datang pertolongan Allah dan kemenangan,"
+      },
+      {
+        "no": 2,
+        "arab": "وَرَأَيْتَ النَّاسَ يَدْخُلُونَ فِي دِينِ اللَّهِ أَفْوَاجًا",
+        "id": "dan engkau melihat manusia berbondong-bondong masuk agama Allah,"
+      },
+      {
+        "no": 3,
+        "arab": "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَاسْتَغْفِرْهُ ۚ إِنَّهُ كَانَ تَوَّابًا",
+        "id": "maka bertasbihlah dengan memuji Tuhanmu dan mohonlah ampunan kepada-Nya. Sungguh, Dia Maha Penerima tobat."
+      }
+    ]
+  },
+  {
+    "surah_id": 111,
+    "surah_name": "Al-Masad",
+    "surah_name_ar": "المسد",
+    "ayat": [
+      {
+        "no": 1,
+        "arab": "تَبَّتْ يَدَا أَبِي لَهَبٍ وَتَبَّ",
+        "id": "Binasalah kedua tangan Abu Lahab dan benar-benar binasa dia!"
+      },
+      {
+        "no": 2,
+        "arab": "مَا أَغْنَىٰ عَنْهُ مَالُهُ وَمَا كَسَبَ",
+        "id": "Tidaklah berfaedah kepadanya harta bendanya dan apa yang dia usahakan."
+      },
+      {
+        "no": 3,
+        "arab": "سَيَصْلَىٰ نَارًا ذَاتَ لَهَبٍ",
+        "id": "Kelak dia akan masuk ke dalam api yang bergejolak (neraka),"
+      },
+      {
+        "no": 4,
+        "arab": "وَامْرَأَتُهُ حَمَّالَةَ الْحَطَبِ",
+        "id": "dan (begitu pula) istrinya, pembawa kayu bakar (penyebar fitnah)."
+      },
+      {
+        "no": 5,
+        "arab": "فِي جِيدِهَا حَبْلٌ مِنْ مَسَدٍ",
+        "id": "Di lehernya ada tali dari sabut yang dipintal."
+      }
+    ]
+  },
+  {
+    "surah_id": 112,
+    "surah_name": "Al-Ikhlas",
+    "surah_name_ar": "الإخلاص",
+    "ayat": [
+      {
+        "no": 1,
+        "arab": "قُلْ هُوَ اللَّهُ أَحَدٌ",
+        "id": "Katakanlah (Muhammad), \"Dialah Allah, Yang Maha Esa.\""
+      },
+      {
+        "no": 2,
+        "arab": "اللَّهُ الصَّمَدُ",
+        "id": "Allah tempat meminta segala sesuatu."
+      },
+      {
+        "no": 3,
+        "arab": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+        "id": "Dia tidak beranak dan tidak diperanakkan."
+      },
+      {
+        "no": 4,
+        "arab": "وَلَمْ يَكُنْ لَهُ كُفُوًا أَحَدٌ",
+        "id": "Dan tidak ada sesuatu yang setara dengan Dia."
+      }
+    ]
+  },
+  {
+    "surah_id": 113,
+    "surah_name": "Al-Falaq",
+    "surah_name_ar": "الفلق",
+    "ayat": [
+      {
+        "no": 1,
+        "arab": "قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ",
+        "id": "Katakanlah, \"Aku berlindung kepada Tuhan yang menguasai subuh (fajar),\""
+      },
+      {
+        "no": 2,
+        "arab": "مِنْ شَرِّ مَا خَلَقَ",
+        "id": "dari kejahatan (makhluk yang) Dia ciptakan,"
+      },
+      {
+        "no": 3,
+        "arab": "وَمِنْ شَرِّ غَاسِقٍ إِذَا وَقَبَ",
+        "id": "dan dari kejahatan malam apabila telah gelap gulita,"
+      },
+      {
+        "no": 4,
+        "arab": "وَمِنْ شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ",
+        "id": "dan dari kejahatan (perempuan-perempuan) penyihir yang meniup pada buhul-buhul (talinya),"
+      },
+      {
+        "no": 5,
+        "arab": "وَمِنْ شَرِّ حَاسِدٍ إِذَا حَسَدَ",
+        "id": "dan dari kejahatan orang yang dengki apabila dia dengki.\""
+      }
+    ]
+  },
+  {
+    "surah_id": 114,
+    "surah_name": "An-Nas",
+    "surah_name_ar": "الناس",
+    "ayat": [
+      {
+        "no": 1,
+        "arab": "قُلْ أَعُوذُ بِرَبِّ النَّاسِ",
+        "id": "Katakanlah, \"Aku berlindung kepada Tuhannya manusia,"
+      },
+      {
+        "no": 2,
+        "arab": "مَلِكِ النَّاسِ",
+        "id": "Raja manusia,"
+      },
+      {
+        "no": 3,
+        "arab": "إِلَٰهِ النَّاسِ",
+        "id": "sembahan manusia,"
+      },
+      {
+        "no": 4,
+        "arab": "مِنْ شَرِّ الْوَسْوَاسِ الْخَنَّاسِ",
+        "id": "dari kejahatan (setan) yang membisikkan (kejahatan) ke dalam dada manusia,"
+      },
+      {
+        "no": 5,
+        "arab": "الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ",
+        "id": "yang membisikkan (kejahatan) ke dalam dada manusia,"
+      },
+      {
+        "no": 6,
+        "arab": "مِنَ الْجِنَّةِ وَالنَّاسِ",
+        "id": "dari (golongan) jin dan manusia.\""
+      }
+    ]
+  }
+]

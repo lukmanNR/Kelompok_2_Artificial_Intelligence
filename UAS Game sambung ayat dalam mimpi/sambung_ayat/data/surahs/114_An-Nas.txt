@@ -1,0 +1,9 @@
+# Surah 114 | An-Nas | الناس
+# total_ayat=6
+
+1|قُلْ أَعُوذُ بِرَبِّ النَّاسِ|Katakanlah, "Aku berlindung kepada Tuhannya manusia,
+2|مَلِكِ النَّاسِ|Raja manusia,
+3|إِلَٰهِ النَّاسِ|sembahan manusia,
+4|مِنْ شَرِّ الْوَسْوَاسِ الْخَنَّاسِ|dari kejahatan (setan) yang membisikkan (kejahatan) ke dalam dada manusia,
+5|الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ|yang membisikkan (kejahatan) ke dalam dada manusia,
+6|مِنَ الْجِنَّةِ وَالنَّاسِ|dari (golongan) jin dan manusia."

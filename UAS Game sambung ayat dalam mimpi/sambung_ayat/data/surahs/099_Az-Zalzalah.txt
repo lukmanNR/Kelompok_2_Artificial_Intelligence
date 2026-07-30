@@ -1,0 +1,11 @@
+# Surah 99 | Az-Zalzalah | الزلزلة
+# total_ayat=8
+
+1|إِذَا زُلْزِلَتِ الْأَرْضُ زِلْزَالَهَا|Apabila bumi diguncarkan dengan guncangan yang dahsyat,
+2|وَأَخْرَجَتِ الْأَرْضُ أَثْقَالَهَا|dan bumi telah mengeluarkan beban-beban berat (yang dikandung)nya,
+3|وَقَالَ الْإِنْسَانُ مَا لَهَا|dan manusia bertanya, "Apa yang terjadi pada bumi ini?"
+4|يَوْمَئِذٍ تُحَدِّثُ أَخْبَارَهَا|pada hari itu bumi menyampaikan beritanya,
+5|بِأَنَّ رَبَّكَ أَوْحَىٰ لَهَا|karena sesungguhnya Tuhanmu telah memerintahkan (yang demikian itu) kepadanya.
+6|يَوْمَئِذٍ يَصْدُرُ النَّاسُ أَشْتَاتًا لِيُرَوْا أَعْمَالَهُمْ|Pada hari itu manusia keluar dari kuburnya dalam keadaan berkelompok-kelompok, untuk diperlihatkan kepada mereka (balasan) pekerjaan mereka.
+7|فَمَنْ يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَرَهُ|Maka barangsiapa mengerjakan kebaikan seberat zarrah, niscaya dia akan melihat (balasan)nya,
+8|وَمَنْ يَعْمَلْ مِثْقَالَ ذَرَّةٍ شَرًّا يَرَهُ|dan barangsiapa mengerjakan kejahatan seberat zarrah, niscaya dia akan melihat (balasan)nya.

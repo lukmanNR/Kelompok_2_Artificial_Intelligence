@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sambung Ayat · Mimpi Pocong</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap');
+    .font-arab { font-family: 'Amiri', 'Traditional Arabic', serif; direction: rtl; }
+    .font-islamic { font-family: 'Amiri', serif; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: #0b0614; overflow: hidden; height: 100vh; }
+    .scene { transition: opacity 0.35s ease; }
+    .blackout-anim { animation: blackout 2.7s forwards; }
+    @keyframes blackout {
+      0% { opacity: 0; } 6% { opacity: 1; } 90% { opacity: 1; } 100% { opacity: 0; }
+    }
+    .timer-warn { color: #f87171 !important; text-shadow: 0 0 8px #ef4444; }
+    .bubble {
+      background: rgba(255,252,245,0.97);
+      border-radius: 0.75rem;
+      box-shadow: 0 6px 24px rgba(0,0,0,0.35);
+    }
+    .choice-btn { transition: all 0.12s ease; }
+    .choice-btn:hover { background: #fef3c7; }
+    .choice-btn:active { transform: scale(0.98); }
+    .bg-layer {
+      position: absolute; inset: 0;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-color: #1a1030;
+    }
+    /* Layout horizontal: 75% kiri gambar | 25% kanan soal */
+    #game-layout { display: flex; height: 100vh; width: 100vw; }
+    #image-area { width: 75%; height: 100%; position: relative; flex-shrink: 0; }
+    #soal-area {
+      width: 25%; height: 100%;
+      background: #120c22;
+      display: flex; flex-direction: column;
+      border-left: 1px solid rgba(139,92,246,0.25);
+      overflow-y: auto;
+    }
+  </style>
+</head>
+<body class="text-white select-none">
+
+  <div id="blackout" class="fixed inset-0 bg-black z-50 opacity-0 pointer-events-none"></div>
+
+  <!-- START -->
+  <div id="screen-start" class="scene fixed inset-0 flex flex-col items-center justify-center p-4 z-10"
+       style="background: linear-gradient(160deg,#0f0a1f,#1a1035,#0f0a1f);">
+    <div class="text-center mb-5">
+      <h1 class="font-islamic text-4xl text-amber-200 mb-1">سَمِّعْ آيَة</h1>
+      <h2 class="text-lg text-purple-200">Sambung Ayat · Mimpi Pocong</h2>
+      <p class="text-xs text-gray-400 mt-2">5 ayat WAJIB benar!· Timer 9 detik</p>
+    </div>
+    <div id="surah-list" class="grid grid-cols-2 sm:grid-cols-3 gap-2 max-w-2xl w-full max-h-[55vh] overflow-y-auto px-2"></div>
+  </div>
+
+  <!-- GAME: kiri gambar 75% | kanan soal 25% -->
+  <div id="screen-game" class="scene fixed inset-0 hidden z-10">
+    <div id="game-layout">
+      <!-- KIRI: GAMBAR -->
+      <div id="image-area">
+        <div id="bg-bedroom" class="bg-layer" style="background-image:url('/assets/bedroom_sleep.png')"></div>
+        <div id="bg-pocong" class="bg-layer hidden" style="background-image:url('/assets/bedroom_pocong_in.png')"></div>
+        <div id="bg-classroom" class="bg-layer hidden" style="background-image:url('/assets/classroom_wake.png')"></div>
+
+        <!-- HUD normal -->
+        <div id="hud-normal" class="absolute top-0 left-0 right-0 z-20 flex justify-between items-center px-4 py-2"
+             style="background:rgba(0,0,0,0.4);backdrop-filter:blur(6px)">
+          <div class="text-sm">
+            <span id="surah-label" class="text-amber-200">—</span>
+            <span class="text-gray-400 mx-1">|</span>
+            Soal <span id="q-num" class="font-bold">1</span>/5
+          </div>
+          <div class="flex items-center gap-3">
+            <div class="flex gap-1">
+              <div id="mistake-1" class="w-2.5 h-2.5 rounded-full bg-gray-600"></div>
+              <div id="mistake-2" class="w-2.5 h-2.5 rounded-full bg-gray-600"></div>
+            </div>
+            <div id="timer" class="text-xl font-bold tabular-nums w-8 text-center">9</div>
+          </div>
+        </div>
+
+        <!-- HUD classroom: HANYA timer -->
+        <div id="hud-classroom" class="absolute top-0 right-0 z-20 px-4 py-3 hidden">
+          <div id="timer-class" class="text-3xl font-bold tabular-nums text-white drop-shadow-lg">4</div>
+        </div>
+      </div>
+
+      <!-- KANAN: SOAL 25% -->
+      <div id="soal-area">
+        <div class="p-3 flex-1 flex flex-col">
+          <div class="text-[11px] font-semibold text-purple-300 mb-2">Mimpi · Sambung Ayat</div>
+          <div id="ayat-soal-arab" class="font-arab text-lg text-right leading-snug text-amber-50 mb-1"></div>
+          <div id="ayat-soal-id" class="text-[11px] text-gray-400 mb-3 border-b border-purple-900 pb-2"></div>
+          <div class="space-y-2 mt-auto">
+            <button id="btn-a" class="choice-btn w-full text-left p-2.5 rounded-lg bg-amber-50 border border-amber-200 text-gray-900">
+              <span class="inline-block bg-purple-700 text-white text-[10px] font-bold rounded-full w-5 h-5 text-center leading-5">A</span>
+              <div id="choice-a-arab" class="font-arab text-sm text-right leading-snug mt-1"></div>
+              <div id="choice-a-id" class="text-[10px] text-gray-500 mt-0.5"></div>
+            </button>
+            <button id="btn-b" class="choice-btn w-full text-left p-2.5 rounded-lg bg-amber-50 border border-amber-200 text-gray-900">
+              <span class="inline-block bg-purple-700 text-white text-[10px] font-bold rounded-full w-5 h-5 text-center leading-5">B</span>
+              <div id="choice-b-arab" class="font-arab text-sm text-right leading-snug mt-1"></div>
+              <div id="choice-b-id" class="text-[10px] text-gray-500 mt-0.5"></div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ENDING -->
+  <div id="screen-end" class="scene fixed inset-0 hidden z-20 bg-black flex flex-col">
+    <div class="flex-1 relative">
+      <img id="end-img" src="" class="absolute inset-0 w-full h-full object-cover" alt="" />
+      <div class="absolute top-3 right-4 z-10">
+        <div id="end-timer" class="text-2xl font-bold tabular-nums text-white drop-shadow-lg">5</div>
+      </div>
+      <div class="absolute bottom-0 left-0 right-0 p-5"
+           style="background:linear-gradient(transparent,rgba(0,0,0,0.85))">
+        <div id="end-title" class="font-islamic text-2xl text-amber-200 mb-1"></div>
+        <div id="end-desc" class="text-purple-100 text-sm leading-relaxed"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TAMAT -->
+  <div id="screen-tamat" class="scene fixed inset-0 hidden z-30 bg-black flex flex-col items-center justify-center">
+    <div class="text-center px-4">
+      <div class="font-islamic text-4xl md:text-5xl text-amber-100 mb-2">Sambung Ayat</div>
+      <div class="font-islamic text-2xl md:text-3xl text-purple-300 mb-8">Mimpi Pocong Tamat!</div>
+      <div class="text-sm text-gray-500 font-arab mb-8">اَلْحَمْدُ للَّهِ رَبِّ الْعالَمِينَ</div>
+      <button onclick="location.reload()" class="px-8 py-3 bg-purple-700 hover:bg-purple-600 rounded-full text-sm font-medium">
+        Main Lagi
+      </button>
+    </div>
+  </div>
+
+<script>
+const API = window.location.origin;
+const TIMER_SOAL = 9;
+const TIMER_CLASSROOM = 4;
+const TIMER_ENDING = 5;
+const BLACKOUT_MS = 2700;
+
+let state = {
+  surahId: null, surahName: "", qNum: 0, mistakes: 0,
+  currentQ: null, timer: null, timeLeft: TIMER_SOAL,
+  locked: false, gameOver: false
+};
+
+function showBg(name) {
+  ["bg-bedroom","bg-pocong","bg-classroom"].forEach(id => {
+    document.getElementById(id).classList.add("hidden");
+  });
+  if (name === "bedroom") document.getElementById("bg-bedroom").classList.remove("hidden");
+  if (name === "pocong") document.getElementById("bg-pocong").classList.remove("hidden");
+  if (name === "classroom") document.getElementById("bg-classroom").classList.remove("hidden");
+}
+
+function setHudMode(mode) {
+  document.getElementById("hud-normal").classList.toggle("hidden", mode !== "normal");
+  document.getElementById("hud-classroom").classList.toggle("hidden", mode !== "classroom");
+  // sembunyikan panel soal saat classroom
+  document.getElementById("soal-area").style.display = (mode === "classroom") ? "none" : "flex";
+  document.getElementById("image-area").style.width = (mode === "classroom") ? "100%" : "75%";
+}
+
+async function loadSurahs() {
+  try {
+    const res = await fetch(`${API}/api/surahs`);
+    const data = await res.json();
+    const list = document.getElementById("surah-list");
+    list.innerHTML = "";
+    data.forEach(s => {
+      const btn = document.createElement("button");
+      btn.className = "p-2.5 rounded-xl bg-purple-900/50 hover:bg-purple-800 border border-purple-600/40 text-sm text-left";
+      btn.innerHTML = `<div class="font-arab text-sm text-amber-100">${s.surah_name_ar}</div>
+                       <div class="text-purple-100 text-xs">${s.surah_name}</div>
+                       <div class="text-[10px] text-gray-400">${s.total_ayat} ayat</div>`;
+      btn.onclick = () => startGame(s.surah_id, s.surah_name);
+      list.appendChild(btn);
+    });
+  } catch {
+    document.getElementById("surah-list").innerHTML =
+      `<p class="col-span-full text-red-300 text-center text-sm">Backend belum jalan.</p>`;
+  }
+}
+
+function startGame(sid, name) {
+  state = { surahId: sid, surahName: name, qNum: 0, mistakes: 0, currentQ: null,
+            timer: null, timeLeft: TIMER_SOAL, locked: false, gameOver: false };
+  document.getElementById("screen-start").classList.add("hidden");
+  document.getElementById("screen-game").classList.remove("hidden");
+  document.getElementById("surah-label").textContent = name;
+  showBg("bedroom");
+  setHudMode("normal");
+  updateMistakeUI();
+  nextQuestion();
+}
+
+async function nextQuestion() {
+  if (state.gameOver) return;
+  state.locked = true;
+  state.qNum += 1;
+  document.getElementById("q-num").textContent = state.qNum;
+
+  // tampilkan status AI (biar lag terasa sebagai proses AI, bukan error)
+  document.getElementById("ayat-soal-arab").textContent = "";
+  document.getElementById("ayat-soal-id").textContent = "AI (Ollama) sedang memilih distractor...";
+  document.getElementById("choice-a-arab").textContent = "";
+  document.getElementById("choice-a-id").textContent = "";
+  document.getElementById("choice-b-arab").textContent = "";
+  document.getElementById("choice-b-id").textContent = "";
+  document.getElementById("btn-a").disabled = true;
+  document.getElementById("btn-b").disabled = true;
+
+  try {
+    const res = await fetch(`${API}/api/question/${state.surahId}`);
+    if (!res.ok) throw new Error("Gagal ambil soal");
+    const q = await res.json();
+    state.currentQ = q;
+    document.getElementById("ayat-soal-arab").textContent = q.ayat_soal.arab;
+    document.getElementById("ayat-soal-id").textContent = q.ayat_soal.id;
+    document.getElementById("choice-a-arab").textContent = q.pilihan[0].arab;
+    document.getElementById("choice-a-id").textContent = q.pilihan[0].id;
+    document.getElementById("choice-b-arab").textContent = q.pilihan[1].arab;
+    document.getElementById("choice-b-id").textContent = q.pilihan[1].id;
+    document.getElementById("btn-a").disabled = false;
+    document.getElementById("btn-b").disabled = false;
+    state.locked = false;
+    startTimer(TIMER_SOAL, "timer");
+  } catch (e) {
+    document.getElementById("ayat-soal-id").textContent = "Error: " + e.message;
+    document.getElementById("btn-a").disabled = false;
+    document.getElementById("btn-b").disabled = false;
+    state.locked = false;
+  }
+}
+
+function startTimer(seconds, elId) {
+  clearInterval(state.timer);
+  state.timeLeft = seconds;
+  const el = document.getElementById(elId);
+  el.textContent = seconds;
+  el.classList.remove("timer-warn");
+  state.timer = setInterval(() => {
+    if (state.gameOver && elId === "timer") { clearInterval(state.timer); return; }
+    state.timeLeft -= 1;
+    el.textContent = state.timeLeft;
+    if (state.timeLeft <= 3) el.classList.add("timer-warn");
+    if (state.timeLeft <= 0) {
+      clearInterval(state.timer);
+      if (elId === "timer") handleAnswer(-1);
+    }
+  }, 1000);
+}
+
+document.getElementById("btn-a").onclick = () => handleAnswer(0);
+document.getElementById("btn-b").onclick = () => handleAnswer(1);
+
+async function handleAnswer(idx) {
+  if (state.locked || state.gameOver) return;
+  state.locked = true;
+  clearInterval(state.timer);
+
+  let correct = false;
+  if (idx >= 0 && state.currentQ) {
+    try {
+      const res = await fetch(`${API}/api/answer`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          question_id: state.currentQ.question_id,
+          selected_index: idx,
+          surah_id: state.surahId
+        })
+      });
+      const data = await res.json();
+      correct = data.correct;
+    } catch {
+      correct = (idx === state.currentQ.correct_index);
+    }
+  }
+
+  if (correct) {
+    if (state.qNum >= 5) goodEnding();
+    else setTimeout(nextQuestion, 350);
+  } else {
+    state.mistakes += 1;
+    updateMistakeUI();
+    if (state.mistakes === 1) {
+      showBg("pocong");
+      setTimeout(nextQuestion, 600);
+    } else {
+      state.gameOver = true;
+      badEnding();
+    }
+  }
+}
+
+function updateMistakeUI() {
+  document.getElementById("mistake-1").className =
+    "w-2.5 h-2.5 rounded-full " + (state.mistakes >= 1 ? "bg-red-500" : "bg-gray-600");
+  document.getElementById("mistake-2").className =
+    "w-2.5 h-2.5 rounded-full " + (state.mistakes >= 2 ? "bg-red-500" : "bg-gray-600");
+}
+
+function triggerBlackout(cb) {
+  const bo = document.getElementById("blackout");
+  bo.classList.remove("opacity-0", "pointer-events-none");
+  bo.classList.add("blackout-anim");
+  setTimeout(() => {
+    bo.classList.add("opacity-0", "pointer-events-none");
+    bo.classList.remove("blackout-anim");
+    if (cb) cb();
+  }, BLACKOUT_MS);
+}
+
+function badEnding() {
+  clearInterval(state.timer);
+  state.gameOver = true;
+  triggerBlackout(() => {
+    showBg("classroom");
+    setHudMode("classroom");
+    startTimer(TIMER_CLASSROOM, "timer-class");
+    setTimeout(() => {
+      clearInterval(state.timer);
+      document.getElementById("screen-game").classList.add("hidden");
+      showEndingScreen(
+        "Kamu Ketiduran di Kelas...",
+        "Pocong ikut tidur selimutan di sampingmu. Ternyata semuanya hanya mimpi saat kamu tertidur di kelas.",
+        "/assets/dream_photo.png"
+      );
+    }, TIMER_CLASSROOM * 1000);
+  });
+}
+
+function goodEnding() {
+  clearInterval(state.timer);
+  state.gameOver = true;
+  triggerBlackout(() => {
+    document.getElementById("screen-game").classList.add("hidden");
+    showEndingScreen(
+      "Alhamdulillah, Kamu Bangun!",
+      "Kamu berhasil sambung 5 ayat. Pocong masih di luar jendela. Mimpi menegangkan berakhir dengan selamat.",
+      "/assets/bedroom_sleep.png"
+    );
+  });
+}
+
+function showEndingScreen(title, desc, imgSrc) {
+  document.getElementById("screen-end").classList.remove("hidden");
+  document.getElementById("end-title").textContent = title;
+  document.getElementById("end-desc").textContent = desc;
+  document.getElementById("end-img").src = imgSrc;
+  let t = TIMER_ENDING;
+  document.getElementById("end-timer").textContent = t;
+  const iv = setInterval(() => {
+    t -= 1;
+    document.getElementById("end-timer").textContent = t;
+    if (t <= 0) {
+      clearInterval(iv);
+      document.getElementById("screen-end").classList.add("hidden");
+      document.getElementById("screen-tamat").classList.remove("hidden");
+    }
+  }, 1000);
+}
+
+loadSurahs();
+</script>
+</body>
+</html>

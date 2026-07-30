@@ -1,0 +1,7 @@
+# Surah 106 | Quraisy | قريش
+# total_ayat=4
+
+1|لِإِيلَافِ قُرَيْشٍ|Karena kebiasaan orang-orang Quraisy,
+2|إِيلَافِهِمْ رِحْلَةَ الشِّتَاءِ وَالصَّيْفِ|(yaitu) kebiasaan mereka bepergian pada musim dingin dan musim panas.
+3|فَلْيَعْبُدُوا رَبَّ هَٰذَا الْبَيْتِ|Maka hendaklah mereka menyembah Tuhan (pemilik) rumah ini (Ka'bah),
+4|الَّذِي أَطْعَمَهُمْ مِنْ جُوعٍ وَآمَنَهُمْ مِنْ خَوْفٍ|yang telah memberi makanan kepada mereka untuk menghilangkan lapar dan mengamankan mereka dari rasa ketakutan.

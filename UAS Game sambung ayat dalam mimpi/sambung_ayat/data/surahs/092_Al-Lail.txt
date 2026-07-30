@@ -1,0 +1,24 @@
+# Surah 92 | Al-Lail | الليل
+# total_ayat=21
+
+1|وَاللَّيْلِ إِذَا يَغْشَىٰ|Demi malam apabila menutupi (cahaya siang),
+2|وَالنَّهَارِ إِذَا تَجَلَّىٰ|demi siang apabila terang benderang,
+3|وَمَا خَلَقَ الذَّكَرَ وَالْأُنْثَىٰ|demi apa yang menciptakan laki-laki dan perempuan,
+4|إِنَّ سَعْيَكُمْ لَشَتَّىٰ|sungguh, usaha kamu memang berbeda-beda.
+5|فَأَمَّا مَنْ أَعْطَىٰ وَاتَّقَىٰ|Maka barangsiapa memberikan (hartanya di jalan Allah) dan bertakwa,
+6|وَصَدَّقَ بِالْحُسْنَىٰ|dan membenarkan (adanya pahala) yang terbaik (surga),
+7|فَسَنُيَسِّرُهُ لِلْيُسْرَىٰ|maka Kami akan menyiapkan baginya jalan yang mudah (kebaikan).
+8|وَأَمَّا مَنْ بَخِلَ وَاسْتَغْنَىٰ|Dan adapun orang yang kikir dan merasa dirinya cukup (tidak perlu pertolongan Allah),
+9|وَكَذَّبَ بِالْحُسْنَىٰ|serta mendustakan (pahala) yang terbaik,
+10|فَسَنُيَسِّرُهُ لِلْعُسْرَىٰ|maka Kami akan menyiapkan baginya (jalan) yang sukar (keburukan).
+11|وَمَا يُغْنِي عَنْهُ مَالُهُ إِذَا تَرَدَّىٰ|Dan hartanya tidak bermanfaat baginya apabila dia telah binasa.
+12|إِنَّ عَلَيْنَا لَلْهُدَىٰ|Sesungguhnya Kamilah yang memberi petunjuk,
+13|وَإِنَّ لَنَا لَلْآخِرَةَ وَالْأُولَىٰ|dan sesungguhnya milik Kamilah akhirat dan dunia.
+14|فَأَنْذَرْتُكُمْ نَارًا تَلَظَّىٰ|Maka Aku peringatkan kamu dengan neraka yang menyala-nyala,
+15|لَا يَصْلَاهَا إِلَّا الْأَشْقَى|yang hanya dimasuki oleh orang yang paling celaka,
+16|الَّذِي كَذَّبَ وَتَوَلَّىٰ|yang mendustakan (kebenaran) dan berpaling (dari iman).
+17|وَسَيُجَنَّبُهَا الْأَتْقَى|Dan akan dijauhkan darinya (neraka) orang yang paling bertakwa,
+18|الَّذِي يُؤْتِي مَالَهُ يَتَزَكَّىٰ|yang menginfakkan hartanya (di jalan Allah) untuk membersihkannya (dari dosa),
+19|وَمَا لِأَحَدٍ عِنْدَهُ مِنْ نِعْمَةٍ تُجْزَىٰ|padahal tidak ada suatu nikmat pun yang telah diberikan kepadanya yang harus dibalasnya,
+20|إِلَّا ابْتِغَاءَ وَجْهِ رَبِّهِ الْأَعْلَىٰ|tetapi (dia memberikan itu semata-mata) karena mencari keridaan Tuhannya Yang Mahatinggi.
+21|وَلَسَوْفَ يَرْضَىٰ|Dan niscaya kelak dia akan mendapat kesenangan (yang sempurna).

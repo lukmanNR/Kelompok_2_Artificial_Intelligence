@@ -1,0 +1,14 @@
+# Surah 101 | Al-Qari'ah | القارعة
+# total_ayat=11
+
+1|الْقَارِعَةُ|Hari Kiamat,
+2|مَا الْقَارِعَةُ|apakah hari Kiamat itu?
+3|وَمَا أَدْرَاكَ مَا الْقَارِعَةُ|Dan tahukah kamu apakah hari Kiamat itu?
+4|يَوْمَ يَكُونُ النَّاسُ كَالْفَرَاشِ الْمَبْثُوثِ|Pada hari itu manusia seperti laron yang beterbangan,
+5|وَتَكُونُ الْجِبَالُ كَالْعِهْنِ الْمَنْفُوشِ|dan gunung-gunung seperti bulu yang dihambur-hamburkan.
+6|فَأَمَّا مَنْ ثَقُلَتْ مَوَازِينُهُ|Maka adapun orang yang berat timbangan (kebaikan)nya,
+7|فَهُوَ فِي عِيشَةٍ رَاضِيَةٍ|maka dia berada dalam kehidupan yang memuaskan (senang).
+8|وَأَمَّا مَنْ خَفَّتْ مَوَازِينُهُ|Dan adapun orang yang ringan timbangan (kebaikan)nya,
+9|فَأُمُّهُ هَاوِيَةٌ|maka tempat kembalinya adalah neraka Hawiyah.
+10|وَمَا أَدْرَاكَ مَا هِيَهْ|Dan tahukah kamu apakah neraka Hawiyah itu?
+11|نَارٌ حَامِيَةٌ|(Yaitu) api yang sangat panas.

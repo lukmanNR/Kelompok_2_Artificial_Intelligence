@@ -1,0 +1,14 @@
+# Surah 100 | Al-Adiyat | العاديات
+# total_ayat=11
+
+1|وَالْعَادِيَاتِ ضَبْحًا|Demi kuda perang yang berlari kencang terengah-engah,
+2|فَالْمُورِيَاتِ قَدْحًا|dan kuda yang memercikkan bunga api (dengan pukulan kuku kakinya),
+3|فَالْمُغِيرَاتِ صُبْحًا|dan kuda yang menyerang (dengan tiba-tiba) pada waktu pagi,
+4|فَأَثَرْنَ بِهِ نَقْعًا|sehingga menerbangkan debu,
+5|فَوَسَطْنَ بِهِ جَمْعًا|lalu menyerbu ke tengah-tengah kumpulan musuh,
+6|إِنَّ الْإِنْسَانَ لِرَبِّهِ لَكَنُودٌ|sungguh, manusia itu sangat ingkar, tidak berterima kasih kepada Tuhannya,
+7|وَإِنَّهُ عَلَىٰ ذَٰلِكَ لَشَهِيدٌ|dan sesungguhnya dia (manusia) itu menyaksikan (keingkarannya),
+8|وَإِنَّهُ لِحُبِّ الْخَيْرِ لَشَدِيدٌ|dan sesungguhnya dia sangat cintakan harta.
+9|أَفَلَا يَعْلَمُ إِذَا بُعْثِرَ مَا فِي الْقُبُورِ|Maka tidakkah dia mengetahui apabila apa yang di dalam kubur dikeluarkan,
+10|وَحُصِّلَ مَا فِي الصُّدُورِ|dan apa yang tersimpan di dalam dada dilahirkan?
+11|إِنَّ رَبَّهُمْ بِهِمْ يَوْمَئِذٍ لَخَبِيرٌ|Sesungguhnya Tuhan mereka pada hari itu Mahateliti terhadap keadaan mereka.

@@ -1,0 +1,10 @@
+# Surah 107 | Al-Ma'un | الماعون
+# total_ayat=7
+
+1|أَرَأَيْتَ الَّذِي يُكَذِّبُ بِالدِّينِ|Tahukah kamu (orang) yang mendustakan agama?
+2|فَذَٰلِكَ الَّذِي يَدُعُّ الْيَتِيمَ|Itulah orang yang menghardik anak yatim,
+3|وَلَا يَحُضُّ عَلَىٰ طَعَامِ الْمِسْكِينِ|dan tidak menganjurkan memberi makan orang miskin.
+4|فَوَيْلٌ لِلْمُصَلِّينَ|Maka celakalah orang yang salat,
+5|الَّذِينَ هُمْ عَنْ صَلَاتِهِمْ سَاهُونَ|(yaitu) orang-orang yang lalai terhadap salatnya,
+6|الَّذِينَ هُمْ يُرَاءُونَ|yang berbuat ria,
+7|وَيَمْنَعُونَ الْمَاعُونَ|dan enggan (memberikan) bantuan.

@@ -1,0 +1,6 @@
+# Surah 103 | Al-Asr | العصر
+# total_ayat=3
+
+1|وَالْعَصْرِ|Demi masa.
+2|إِنَّ الْإِنْسَانَ لَفِي خُسْرٍ|Sungguh, manusia berada dalam kerugian,
+3|إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ وَتَوَاصَوْا بِالْحَقِّ وَتَوَاصَوْا بِالصَّبْرِ|kecuali orang-orang yang beriman dan mengerjakan kebajikan serta saling menasihati untuk kebenaran dan saling menasihati untuk kesabaran.

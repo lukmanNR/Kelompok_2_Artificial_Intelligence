@@ -1,0 +1,9 @@
+# Surah 109 | Al-Kafirun | الكافرون
+# total_ayat=6
+
+1|قُلْ يَا أَيُّهَا الْكَافِرُونَ|Katakanlah (Muhammad), "Wahai orang-orang kafir!
+2|لَا أَعْبُدُ مَا تَعْبُدُونَ|aku tidak akan menyembah apa yang kamu sembah,
+3|وَلَا أَنْتُمْ عَابِدُونَ مَا أَعْبُدُ|dan kamu bukan penyembah apa yang aku sembah,
+4|وَلَا أَنَا عَابِدٌ مَا عَبَدْتُمْ|dan aku tidak pernah menjadi penyembah apa yang kamu sembah,
+5|وَلَا أَنْتُمْ عَابِدُونَ مَا أَعْبُدُ|dan kamu tidak pernah (pula) menjadi penyembah apa yang aku sembah.
+6|لَكُمْ دِينُكُمْ وَلِيَ دِينِ|Untukmu agamamu, dan untukku agamaku."
