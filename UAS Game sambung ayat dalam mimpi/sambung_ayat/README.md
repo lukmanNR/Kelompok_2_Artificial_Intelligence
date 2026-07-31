@@ -26,7 +26,7 @@ User → FE → BE (FastAPI)
 1. Pilih Surah Juz 30
 2. Muncul Ayat N → pilih lanjutan yang benar (A/B)
 3. Timer **9 detik** per soal
-4. **5 benar beruntun** → Good Ending
+4. **5 benar ** → Good Ending
 5. Salah / timeout ke-1 → pocong masuk kamar
 6. Salah / timeout ke-2 → layar hitam 2.7 detik → terbangun di kelas (4 detik) → ending buruk
 7. Ending cerita 5 detik → layar **Tamat** + tombol Main Lagi
